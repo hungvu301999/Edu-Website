@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch video</title>
+
+    <!--font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- header section starts -->
+
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="logo">Educa.</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" id="" placeholder="search course..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"></button>
+            </form>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/pic-1.jpg" alt="">
+                <h3>hung vu</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <!-- header section ends -->
+
+    <!-- side bar section starts -->
+    
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-1.jpg" alt="">
+            <h3>hung vu</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+            
+        </div>
+        <div class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>about us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>our courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+        </div>
+    </div>
+
+    <!-- side bar section ends -->
+
+    <!-- watchvideo section starts -->
+
+    <section class="watch-video">
+
+        <div class="video-details">
+            <video src="images/vid-1.mp4" class="video" poster="images/post-1-1.png" controls autoplay></video>
+            <h3 class="title">complete HTML tutorial (part 01)</h3>
+            <div class="info">
+                <p><i class="fas fa-calendar"><span>22-11-2023</span></i></p>
+                <p><i class="fas fa-heart"><span>45 likes</span></i></p>
+            </div>
+            <div class="tutor">
+                <img src="images/pic-2.jpg" alt="">
+                <div>
+                    <h3>John</h3>
+                    <span>developer</span>
+                </div>
+            </div>
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">view playlist</a>
+                <button type="submit"><i class="far fa-heart"></i><span>like</span></button>
+            </form>
+            <div class="descriptions">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur reprehenderit facilis, architecto impedit pariatur fugit totam rerum hic eveniet magnam.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- watchvideo section ends -->
+
+    <!-- comments section starts -->
+    <section class="comments">
+
+        <h1 class="heading">add a comment</h1>
+
+        <form action="" method="post" class="add-comment">
+            <!-- <h3>add title</h3> -->
+            <textarea name="comment_box" id="" cols="30" rows="10" required placeholder="write your comment..."
+            maxlength="1000"></textarea>
+            <input type="submit" value="add-comment" name="add-comment" class="inline-btn">
+        </form>
+
+        <h1 class="heading">6 comments</h1>
+        <div class="show-comments">
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-1.jpg" alt="">
+                    <div>
+                        <h3>pique david</h3>
+                        <span>22-11-2023</span>
+                    </div>
+                </div>
+                <p class="text"> this is a comment from pique david</p>
+                <form action="" method="post" class="flex-btn"></form>
+                <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
+                <button type="submit" name="delete_comment" class="inline-delete-btn">delete comment</button>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-4.jpg" alt="">
+                    <div>
+                        <h3>pique david</h3>
+                        <span>22-11-2023</span>
+                    </div>
+                </div>
+                <p class="text"> this is a comment from pique david</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-3.jpg" alt="">
+                    <div>
+                        <h3>pique david</h3>
+                        <span>22-11-2023</span>
+                    </div>
+                </div>
+                <p class="text"> this is a comment from pique david</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>pique david</h3>
+                        <span>22-11-2023</span>
+                    </div>
+                </div>
+                <p class="text"> this is a comment from pique david</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-5.jpg" alt="">
+                    <div>
+                        <h3>pique david</h3>
+                        <span>22-11-2023</span>
+                    </div>
+                </div>
+                <p class="text"> this is a comment from pique david</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-6.jpg" alt="">
+                    <div>
+                        <h3>pique david</h3>
+                        <span>22-11-2023</span>
+                    </div>
+                </div>
+                <p class="text"> this is a comment from pique david</p>
+            </div>
+        </div>
+
+    </section>
+      
+    <!-- comments section ends -->
+
+
+    <!-- footer section starts -->
+
+    <footer class="footer">
+        &copy; copyright @ 2023 by <span> mr. web designer</span> | all rights reserved!
+    </footer>
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+</html>
